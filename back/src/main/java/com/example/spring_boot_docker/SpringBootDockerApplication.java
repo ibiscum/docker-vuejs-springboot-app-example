@@ -1,13 +1,13 @@
-package com.books;
+package com.example.spring_boot_docker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BooksApplication {
+public class SpringBootDockerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BooksApplication.class, args);
+		SpringApplication.run(SpringBootDockerApplication.class, args);
 	}
 
 }
